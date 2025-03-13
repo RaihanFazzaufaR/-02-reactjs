@@ -98,18 +98,84 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ```npm -v```
 
+!['1-1.png'](/screenshots/1-1.png)
+
 2. Buat direktori baru untuk proyek React Anda:
+
+!['1-2.png'](/screenshots/1-2.png)
 
 3. Inisialisasi proyek React dengan menjalankan perintah berikut:
 
+!['1-3.png'](/screenshots/1-3.png)
+
 4. Jalankan aplikasi React dengan perintah:
+
+!['1-4.png'](/screenshots/1-4.png)
 
 ### 2. Membuat Komponen React
 1. Buka file src/App.js di text editor Anda.
-2. Ganti kode di dalamnya dengan kode berikut untuk membuat komponen sederhana: 
-3. Simpan file dan lihat perubahan di browser. Anda akan melihat tampilan sederhana dengan 
-header, konten utama, dan footer.
+
+2. Ganti kode di dalamnya dengan kode berikut untuk membuat komponen sederhana:
+
+!['2-2.png'](/screenshots/2-2.png)
+
+3. Simpan file dan lihat perubahan di browser. Anda akan melihat tampilan sederhana dengan header, konten utama, dan footer.
+
+!['2-3.png'](/screenshots/2-3.png)
+
 ### 3. Menggunakan JSX untuk Membuat Komponen Dinamis
+1. Buat file baru di direktori src dengan nama Counter.js.
+
+2. Tambahkan kode berikut untuk membuat komponen Counter yang dinamis:
+
+!['3-2.png'](/screenshots/3-2.png)
+
+3. Buka file src/App.js dan impor komponen Counter:
+
+!['3-3.png'](/screenshots/3-3.png)
+
+4. Tambahkan komponen Counter ke dalam komponen App:
+
+!['3-4.png'](/screenshots/3-4.png)
+
+5. Simpan file dan lihat perubahan di browser. Anda akan melihat tombol "Tambah" yang dapat meningkatkan hitungan saat diklik.
+
+!['3-5.png'](/screenshots/3-5.png)
+
 ### 4. Menggunakan Props untuk Mengirim Data
+1. Buat file baru di direktori src dengan nama Greeting.js
+
+2. Tambahkan kode berikut untuk membuat komponen Greeting yang menerima props:
+
+!['4-2.png'](/screenshots/4-2.png)
+
+3. Buka file src/App.js dan impor komponen Greeting:
+
+!['4-3.png'](/screenshots/4-3.png)
+
+4. Tambahkan komponen Greeting ke dalam komponen App dan kirim props name:
+
+!['4-4.png'](/screenshots/4-4.png)
+
+5. Simpan file dan lihat perubahan di browser. Anda akan melihat pesan "Halo, John!" yang ditampilkan oleh komponen Greeting. 
+
+!['4-5.png'](/screenshots/4-5.png)
+
 ### 5. Menggunakan State untuk Mengelola Data
+1. Buka file src/App.js dan tambahkan kode berikut untuk membuat komponen yang mengelola 
+state:
+
+!['5-1.png'](/screenshots/5-1.png)
+
+2. Tambahkan komponen Example ke dalam komponen App:
+
+!['5-2.png'](/screenshots/5-2.png)
+
+3. Simpan file dan lihat perubahan di browser. Anda akan melihat form input yang dapat mengupdate state dan menampilkan data yang dimasukkan.
+
+!['5-3.png'](/screenshots/5-3.png)
+
 ### Tugas
+1. Buat komponen baru bernama TodoList yang menampilkan daftar tugas (todo list). Gunakan  state untuk mengelola daftar tugas dan props untuk mengirim data tugas ke komponen anak. 
+2. Tambahkan fitur untuk menambahkan tugas baru ke dalam daftar menggunakan form input. 
+3. Implementasikan fitur untuk menghapus tugas dari daftar. 
