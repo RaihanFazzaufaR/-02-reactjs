@@ -68,3 +68,48 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Praktikum 2
+
+<table>
+    <tr>
+        <td>Nama</td>
+        <td>Raihan Fazzaufa Rasendriya</td>
+    </tr>
+    <tr>
+        <td>NIM</td>
+        <td>2241720201</td>
+    </tr>
+    <tr>
+        <td>Kelas</td>
+        <td>TI - 3B</td>
+    </tr>
+    <tr>
+        <td>No. Absen</td>
+        <td>17</td>
+    </tr>
+</table>
+
+### 1. Persiapan Lingkungan
+1. Pastikan Node.js dan npm sudah terinstal di komputer Anda. Anda dapat memeriksanya dengan menjalankan perintah berikut di terminal atau command prompt:
+
+```node -v```
+
+```npm -v```
+
+2. Buat direktori baru untuk proyek React Anda:
+
+3. Inisialisasi proyek React dengan menjalankan perintah berikut:
+
+4. Jalankan aplikasi React dengan perintah:
+
+### 2. Membuat Komponen React
+1. Buka file src/App.js di text editor Anda.
+2. Ganti kode di dalamnya dengan kode berikut untuk membuat komponen sederhana: 
+3. Simpan file dan lihat perubahan di browser. Anda akan melihat tampilan sederhana dengan 
+header, konten utama, dan footer.
+### 3. Menggunakan JSX untuk Membuat Komponen Dinamis
+### 4. Menggunakan Props untuk Mengirim Data
+### 5. Menggunakan State untuk Mengelola Data
+### Tugas
